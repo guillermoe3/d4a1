@@ -5,7 +5,7 @@ if (!$link) {
 }
 echo 'EDITConnected successfully';
 mysql_close($link);
-echo "ESTO ESTA EDITADO, Y SUBIDO AUTOMATICAMENTE POR JENKINS"
+echo "ESTO ESTA EDITADO, Y SUBIDO AUTOMATICAMENTE POR JENKINS";
 echo "<br>E	dddddddddddddddddddddiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiitttDSI DOG";
 ?>
 
