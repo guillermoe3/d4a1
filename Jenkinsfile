@@ -1,6 +1,3 @@
-
-
-
 pipeline{
                 environment{
                         registry = "guillermoe3/d4a1"
@@ -27,4 +24,4 @@ pipeline{
                                                         }
 
                 }
-}
+}}
