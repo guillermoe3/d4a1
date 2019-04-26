@@ -1,7 +1,11 @@
 pipeline{
-	agent any
-	stages{
-		stage('Starting')
-		{steps {sh 'echo stating..'}}
-		}
-	}
+                agent any 
+                stages{
+                               stage('Starting'){
+                                               steps{
+                                               sh 'echo starting...'
+                                                                               }
+                                                               }
+                }
+}
+
