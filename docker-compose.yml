@@ -15,9 +15,7 @@ services:
       - 3306:3306
 
   php:
-    image: guillermoe/d4a1:v1
-    volumes:
-      - ./code/:/var/www/html
+    image: php54
     expose:
       - 80
     ports:
