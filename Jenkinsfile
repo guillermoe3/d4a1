@@ -14,7 +14,7 @@ pipeline{
 				stage('Creating image'){
 						steps{
 							
-							sh 'sudo docker build --tag=php54'
+							sh 'sudo docker build --tag=php54 .'
 							} 				
 				} 
                 }
